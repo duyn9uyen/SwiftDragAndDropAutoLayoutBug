@@ -47,7 +47,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         if(sender.state == .Began)
         {
             // If you drag the recently dropped view, this line will cause the view to jump back
-            // to its original position that was layout in Autoview.  If you turn off Autoview, it works fine.
+            // to its original position that was layout in Autoview.  If you turn off Autolayout, it works fine.
             self.view.bringSubviewToFront(sender.view!)
         }
         
